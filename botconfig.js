@@ -5,8 +5,8 @@ module.exports = {
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
   Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  ClientID: process.env.Discord_ClientID || "923976441652211773", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "uRnCZXuaePYGjIsD6BZ-0WE_qTLSSzJ5", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
